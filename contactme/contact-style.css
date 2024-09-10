@@ -1,0 +1,116 @@
+a {
+    text-decoration: none;
+}
+*{
+    box-sizing: border-box;
+}
+body {
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #88bdbc;
+}
+header{
+    padding: 3rem 5rem;
+    color: #181717;
+}
+main {
+    width: 100%;
+    color: #181717;
+    position: relative;
+}
+.form-container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+.header-block {
+    display: flex;
+    justify-content: space-between;
+}
+.name-line {
+    font-weight: bold;
+    font-size: 2rem;
+}
+.nav-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
+.nav-item {
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    border: 1px solid #181717;
+    transition: all .2s;
+    cursor: pointer;
+    color: #181717;
+}
+.nav-item:hover {
+    background-color: #181717;
+    color: #ffffff;
+}
+.form-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 2rem;
+    max-width: 400px;
+    width: 100%;
+}
+
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 1.5rem;
+    color: #031954;
+}
+
+label {
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+    display: block;
+    color: #031954;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 1.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+input:focus {
+    border-color: #031954;
+    outline: none;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 12px;
+    background-color: #031954;
+    color: white;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #27418b;
+}
+
+.input-group {
+    margin-bottom: 1.5rem;
+}

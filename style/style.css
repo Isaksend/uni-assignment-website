@@ -1,0 +1,80 @@
+a {
+  text-decoration: none;
+}
+body {
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 100%;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #88bdbc;
+}
+header,
+main {
+  padding: 3rem 5rem;
+  color: #181717;
+}
+.header-block {
+  display: flex;
+  justify-content: space-between;
+}
+.name-line {
+  font-weight: bold;
+  font-size: 2rem;
+}
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.nav-item {
+  padding: 10px 15px;
+  border-radius: 5px;
+  font-weight: 600;
+  font-size: 1.25rem;
+  border: 1px solid #181717;
+  transition: all .2s;
+  cursor: pointer;
+  color: #181717;
+}
+.nav-item:hover {
+  background-color: #181717;
+  color: #ffffff;
+}
+.title-container {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.title-container .title-text-container {
+  text-align: center;
+  width: 40%;
+  align-items: center;
+}
+.title-container .title-text-container .title-text {
+  font-size: 5rem;
+}
+.title-img-container {
+  border: 1px solid #181717;
+  width: 35%;
+  border-radius: 15px;
+  padding: 2rem;
+  background-color: #112D32;
+}
+.title-img-container img {
+  width: 100%;
+  border-radius: 15px;
+}
+.title-img-container .list-icons {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 2rem;
+}
+.title-img-container .list-icons img {
+  width: 50px;
+  height: 50px;
+}
+.intro-text {
+  padding-bottom: 4rem;
+}
