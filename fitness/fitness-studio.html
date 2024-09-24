@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modern Fitness Studio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .hero {
+            background-image: url('https://i.postimg.cc/QdyzkxXc/pexels-197092734-19722863.jpg');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .hero h1 {
+            font-size: 4rem;
+        }
+        .hero p {
+            font-size: 1.5rem;
+        }
+        .hero button {
+            margin-top: 20px;
+        }
+        .nav-bar{
+            position: absolute;
+            top: 4rem;
+            right: 5rem;
+            display: flex;
+        }
+    </style>
+</head>
+<body>
+<section class="hero text-center">
+    <div class="nav-bar gap-2">
+        <a href="../index.html" class="nav-item btn btn-primary btn-lg">
+            Portfolio
+        </a>
+        <a href="#services" class="nav-item btn btn-primary btn-lg">
+            Services
+        </a>
+        <a href="#membership" class="nav-item btn btn-primary btn-lg">
+            Subscribes
+        </a>
+    </div>
+    <div class="container">
+        <h1>Achieve Your Fitness Goals</h1>
+        <p>Join us and stay fit anytime, anywhere!</p>
+        <button class="btn btn-primary btn-lg">Join Now</button>
+    </div>
+</section>
+<section class="py-5">
+    <div class="container" id="services">
+        <h2 class="text-center mb-4">Our Services</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.postimg.cc/nVP58Gjq/pexels-pixabay-414029.jpg" class="card-img-top" alt="Personal Training">
+                    <div class="card-body">
+                        <h5 class="card-title">Personal Training</h5>
+                        <p class="card-text">Get one-on-one coaching tailored to your fitness level and goals.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.postimg.cc/FHZzC8fr/pexels-melaudelo-28558821.jpg" class="card-img-top" alt="Group Classes">
+                    <div class="card-body">
+                        <h5 class="card-title">Group Classes</h5>
+                        <p class="card-text">Join our fun and energetic group fitness classes.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.postimg.cc/L533sR4q/pexels-karolina-grabowska-4498457.jpg" class="card-img-top" alt="Online Workouts">
+                    <div class="card-body">
+                        <h5 class="card-title">Online Workouts</h5>
+                        <p class="card-text">Access workout videos and programs from anywhere.</p>
+                        <a href="#" class="btn btn-primary">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="py-5 bg-light">
+    <div class="container">
+        <h2 class="text-center mb-4">What Our Clients Say</h2>
+        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <div class="carousel-item active text-center">
+                    <img src="https://i.postimg.cc/kgBK0WSR/pexels-ibrahim-hafedh-433322428-16411620.jpg" class="rounded-circle mb-3" alt="Client 1" width="100" height="100">
+                    <blockquote class="blockquote">
+                        <p>"The personal training sessions helped me achieve my fitness goals faster than I imagined!"</p>
+                    </blockquote>
+                    <footer class="blockquote-footer">Sarah, <cite title="Source Title">Happy Client</cite></footer>
+                </div>
+                <div class="carousel-item text-center">
+                    <img src="https://i.postimg.cc/0NSmQxc8/pexels-alexapopovich-10360933.jpg" class="rounded-circle mb-3" alt="Client 2" width="100" height="100">
+                    <blockquote class="blockquote">
+                        <p>"I love the flexibility of online workouts. It fits my busy schedule perfectly."</p>
+                    </blockquote>
+                    <footer class="blockquote-footer">James, <cite title="Source Title">Satisfied Member</cite></footer>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="false"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+</section>
+<section class="py-5" id="membership">
+    <div class="container">
+        <h2 class="text-center mb-4">Membership Plans</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Basic Plan</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$29/month</h6>
+                        <p class="card-text">Access to group classes and online workouts.</p>
+                        <a href="#" class="btn btn-primary">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Premium Plan</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$49/month</h6>
+                        <p class="card-text">Includes personal training sessions, group classes, and online workouts.</p>
+                        <a href="#" class="btn btn-primary">Join Now</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Ultimate Plan</h5>
+                        <h6 class="card-subtitle mb-2 text-muted">$79/month</h6>
+                        <p class="card-text">All features plus unlimited personal training sessions.</p>
+                        <a href="#" class="btn btn-primary">Join Now</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<footer class="py-4 bg-dark text-light text-center">
+    <p>© 2024 Modern Fitness Studio | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -30,11 +30,8 @@
                     <a href="#" class="nav-item">
                         Home
                     </a>
-                    <a href="./hobby/hobby.html" class="nav-item">
-                        Hobby
-                    </a>
-                    <a href="./contactme/contact.html" class="nav-item">
-                        Contact me
+                    <a href="./fitness/fitness-studio.html" class="nav-item">
+                        Fitness Studio
                     </a>
                 </div>
             </div>
@@ -70,15 +67,92 @@
                     <p class="intro-text">
                         I'm a passionate 20-year-old web developer with over 3 years of experience in crafting dynamic and responsive websites. My expertise lies in technologies like Vue.js, Less, HTML, CSS, and Tailwind CSS, and I also have solid experience with React.js. In addition to development, I bring a strong eye for design, with hands-on skills in Figma to create user-friendly and visually appealing interfaces. Explore my work and let's collaborate to build something great together!
                     </p>
-                    <a href="./contactme/contact.html" class="nav-item" style="color: #ffffff">
+                    <a href="#contactme" class="nav-item" style="color: #ffffff">
                         Contact me
                     </a>
                 </div>
             </div>
         </div>
+        <div class="title-hobbies">
+            Hobbies
+        </div>
+        <div class="content-block">
+            <div class="content">
+                <div class="hobby-programming">
+                    <div class="hobby-img-out-block">
+                        <div class="hobby-img-block">
+                            <img src="asset/boy-programming-room.avif"/>
+                        </div>
+                    </div>
+                    <div class="hobby-text-out-block">
+                        <div class="hobby-title">
+                            Programming
+                        </div>
+                        <div class="hobby-text-block">
+                            <p class="hobby-text">
+                                My journey in programming began when I was just 12 years old, starting with C++. Since then, I’ve nurtured my passion for coding and evolved into focusing on web development. Along the way, I’ve gained valuable experience participating in hackathons and various programming competitions, which have sharpened my skills and taught me the importance of collaboration and innovation. Today, I continue to pursue my passion, specializing in creating dynamic web applications and delivering top-notch user experiences.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="my-list">
+                        <div class="skill-title">
+                            My Skills:
+                        </div>
+                        <div class="my-skills">
+                            <ul class="list-skill">
+                                <li>
+                                    HTML
+                                </li>
+                                <li>
+                                    CSS
+                                </li>
+                                <li>
+                                    JavaScript
+                                </li>
+                                <li>
+                                    Vue 3
+                                </li>
+                                <li>
+                                    Tailwind CSS
+                                </li>
+                                <li>
+                                    Php
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="hobby-football">
+                    <div class="hobby-img-block">
+                        <img src="asset/football.jpg"/>
+                    </div>
+                    <div class="hobby-title">
+                        Football
+                    </div>
+                    <div class="hobby-text-block">
+                        <p class="hobby-text">
+                            Football has always been one of my greatest passions. It’s more than just a game for me—it’s a way to stay active, develop teamwork, and enjoy the thrill of competition. Whether I'm on the field playing with friends or watching a professional match, football has taught me discipline, strategy, and the importance of persistence. It’s a sport that challenges both the mind and body, and it's a hobby that continues to fuel my love for staying fit and pushing my limits.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
-    <footer>
-        
+    <footer id="contactme">
+        <div class="form-container">
+            <h2>Contact Me</h2>
+            <form method="post">
+                <div class="input-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your name" required>
+                </div>
+                <div class="input-group">
+                    <label for="number">Phone Number</label>
+                    <input type="tel" id="number" name="number" placeholder="Enter your phone number" required pattern="[0-9]{10}">
+                </div>
+                <button type="submit" class="submit-btn">Submit</button>
+            </form>
+        </div>
     </footer>
 </body>
 </html>
