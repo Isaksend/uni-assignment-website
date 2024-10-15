@@ -1,0 +1,265 @@
+body{
+    font-family: Montserrat, sans-serif;
+}
+header{
+    color: #000000;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+header a{
+    color: #001445;
+    border: 2px solid #001445;
+    transition: .5s;
+}
+
+header a:hover{
+    background-color: #112D32;
+    color: #fff;
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+a{
+    color: #000000;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.25rem;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px solid #181717;
+    text-transform: uppercase;
+}
+.task {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    width: 100%;
+}
+
+.task h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.container, .container-2 {
+    text-align: center;
+}
+
+.container h1, .container-2 h1 {
+    font-size: 20px;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Input and Button Styles */
+input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+button {
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background: #0056b3;
+}
+#taskList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#taskList li {
+    background-color: #f9f9f9;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#taskList li.completed {
+    text-decoration: line-through;
+    color: #888;
+}
+
+#taskList .delete-btn {
+    background: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 5px 8px;
+}
+
+#taskList .delete-btn:hover {
+    background: #c82333;
+}
+
+/* Number Sorting Tool Styles */
+.container-2 input[type="text"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.options {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+}
+
+.options label {
+    font-size: 14px;
+    color: #555;
+}
+
+.container-2 button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.container-2 button:hover {
+    background-color: #0056b3;
+}
+
+#result {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Calculator Styles */
+.calculator {
+    padding: 10px;
+}
+
+.calculator label {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+.calculator input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.calculator .buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.calculator .buttons button {
+    margin: 5px;
+    padding: 8px 12px;
+    border: none;
+    background-color: #17a2b8;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.calculator .buttons button:hover {
+    background-color: #138496;
+}
+
+.result {
+    margin-top: 10px;
+}
+
+.result p {
+    font-size: 16px;
+    color: #333;
+    margin: 5px 0;
+}
+
+#resultCalc {
+    font-weight: bold;
+    color: #007bff;
+}
+
+.tax-calculator {
+    padding: 10px;
+}
+
+.tax-calculator label {
+    font-size: 14px;
+    color: #333;
+    margin-top: 10px;
+    display: block;
+}
+
+.tax-calculator input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 8px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+.tax-calculator button {
+    padding: 8px 12px;
+    border: none;
+    background-color: #6c757d;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+.tax-calculator button:hover {
+    background-color: #5a6268;
+}
+
+.tax-calculator .result {
+    margin-top: 15px;
+}
+
+.tax-calculator .result p {
+    font-size: 16px;
+    color: #333;
+}
+
+#taxResult {
+    font-weight: bold;
+    color: #007bff;
+}
